@@ -1,6 +1,6 @@
 //
 //  UINavigationController+LATPopGestureCategory.m
-//  LATNavigationDemo
+//  Git：https://github.com/KKLater/LATNavigation.git
 //
 //  Created by Later on 16/4/14.
 //  Copyright © 2016年 Later. All rights reserved.

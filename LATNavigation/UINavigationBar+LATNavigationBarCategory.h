@@ -1,6 +1,6 @@
 //
 //  UINavigationBar+LATNavigationBarCategory.h
-//  LATNavigationDemo
+//  Git：https://github.com/KKLater/LATNavigation.git
 //
 //  Created by Later on 16/5/7.
 //  Copyright © 2016年 Later. All rights reserved.
