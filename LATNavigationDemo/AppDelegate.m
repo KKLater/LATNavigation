@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    
+    //设置navigationController支持全屏侧滑返回
+    navigationController.fullScreenPopGesture = YES;
+    //设置navigationController的全屏侧滑返回的触发范围
+    navigationController.maxAllowedInitialDistance = CGRectGetWidth([UIScreen mainScreen].bounds)/2.f;
+    
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
