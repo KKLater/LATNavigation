@@ -1,6 +1,6 @@
 //
 //  UIViewController+LATNavigationBarCategory.m
-//  LATNavigationDemo
+//  Git：https://github.com/KKLater/LATNavigation.git
 //
 //  Created by Later on 16/2/13.
 //  Copyright © 2016年 Later. All rights reserved.
