@@ -4,7 +4,7 @@
 
 ### 演示
 
- ![LATNavigation](/Users/Later/Desktop/LATNavigation.gif)
+![LATNavigation](LATNavigation.gif)
 
 ### 功能
 
